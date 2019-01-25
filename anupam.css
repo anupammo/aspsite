@@ -51,6 +51,41 @@ h2.txt-slide, h1, h2 {
     /* color: #383838; */
 }
 /* header Slider */
+.parallax-home {
+    background-image: url(https://images.pexels.com/photos/1446319/pexels-photo-1446319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-one {
+    background-image: url(https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-two {
+    background-image: url(https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-three {
+    background-image: url(https://images.pexels.com/photos/1249158/pexels-photo-1249158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgdark {
+    background-color: #000000aa;
+}
 /* Services Page */
 header.header-services, header.header-execution {
     background-image: url(https://images.pexels.com/photos/1083623/pexels-photo-1083623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
