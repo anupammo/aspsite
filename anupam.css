@@ -119,3 +119,13 @@ td {
     font-family: sans-serif;
 }
 /* Execution Page */
+/* Footer */
+footer {
+    background-color: #3f33ff;
+    padding: 15px 25px;
+}
+.social-ico i.fa {
+    padding: 5px 10px;
+    font-size: 1.2em;
+}
+/* Footer */
