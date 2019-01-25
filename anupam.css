@@ -74,3 +74,13 @@ header.header-execution h1 {
   padding-bottom: 120px;
 }
 /* Services Page */
+/* Execution Page */
+tr.bg-qb {
+    background-color: #1a73e8;
+    color: #fff;
+}
+td {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+/* Execution Page */
