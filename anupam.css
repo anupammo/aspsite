@@ -2,8 +2,17 @@
 .navbar {
     margin-bottom: 0px;
 }
+.navbar-nav>li>a {
+    text-transform: uppercase;
+    /* font-size: 0.94em; */
+}
 section {
-  margin: 100px auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+ul li {
+    margin: 5px;
+    font-size: 1.2em;
 }
 .txt-fff {
   color: #fff;
@@ -12,12 +21,41 @@ section {
   color: #3f33ff;
 }
 .txt-p {
-  font-size: 1.24em;
-  text-align: justify;
-  padding: 15px;
+    font-size: 1.33em;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-stretch: semi-condensed;
 }
 .txt-h1 {
   padding: 25px 15px;
+}
+h4 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+h2.txt-slide, h1, h2 {
+    font-size: 3.2em;
+    font-weight: 900;
+    /* color: #fff; */
+    /* color: #0d26da; */
+    /* color: #383838; */
+}
+@media screen and (max-width: 600px) {
+  h2.txt-slide, h1, h2 {
+      font-size: 1.8em;
+      font-weight: 900;
+      /* color: #fff; */
+      /* color: #0d26da; */
+      /* color: #383838; */
+  }
+}
+.pad-bottom {
+  padding-bottom: 50px;
 }
 /* header Slider */
 .sliderbg-one {
@@ -42,13 +80,6 @@ section {
   padding-bottom: 200px;
   color: #fff;
   background-color: #3a3a3ab0;
-}
-h2.txt-slide, h1, h2 {
-    font-size: 3.2em;
-    font-weight: 900;
-    /* color: #fff; */
-    /* color: #0d26da; */
-    /* color: #383838; */
 }
 /* header Slider */
 .parallax-home {
@@ -86,6 +117,9 @@ h2.txt-slide, h1, h2 {
 .bgdark {
     background-color: #000000aa;
 }
+.rounded-block {
+  border-radius: 5px;
+}
 /* Services Page */
 header.header-services, header.header-execution {
     background-image: url(https://images.pexels.com/photos/1083623/pexels-photo-1083623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -108,6 +142,23 @@ header.header-execution h1 {
   padding-top: 100px;
   padding-bottom: 120px;
 }
+.blue-bg {
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.blue-bg h3, .blue-bg p {
+  transition: .5s ease;
+}
+.blue-bg:hover {
+    /* background-color: #dadada; */
+    background-color: #3f33ff;
+}
+.blue-bg:hover h3, .blue-bg:hover p {
+  color: #fff;
+}
 /* Services Page */
 /* Execution Page */
 tr.bg-qb {
@@ -119,13 +170,34 @@ td {
     font-family: sans-serif;
 }
 /* Execution Page */
+/* Clients Page */
+.card-block {
+    border-radius: 5px;
+    background-color: #2196F3;
+    padding: 5px 15px;
+    margin: 2px auto;
+    display: inline-block;
+    width: fit-content;
+    cursor: pointer;
+}
+.card-block i.fa {
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.card-block p {
+    text-align: center;
+    display: inline-block;
+}
+/* Clients Page */
 /* Footer */
 footer {
     background-color: #3f33ff;
-    padding: 15px 25px;
+    padding: 15px 25px 5px 25px;
 }
-.social-ico i.fa {
+.social-ico a i.fa {
     padding: 5px 10px;
     font-size: 1.2em;
+    color: #fff;
 }
 /* Footer */
