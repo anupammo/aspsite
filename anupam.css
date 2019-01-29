@@ -2,17 +2,26 @@
 .navbar {
     margin-bottom: 0px;
 }
+a.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    display: block;
+    height: 100%;
+    width: auto;
+}
 .navbar-nav>li>a {
     text-transform: uppercase;
-    /* font-size: 0.94em; */
 }
 section {
     margin-top: 60px;
     margin-bottom: 40px;
 }
+ul.nav li {
+    margin: 0px;
+}
 ul li {
     margin: 5px;
-    /* font-size: 1.2em; */
 }
 .txt-fff {
   color: #fff;
