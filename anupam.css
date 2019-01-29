@@ -12,16 +12,16 @@ section {
 }
 ul li {
     margin: 5px;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
 }
 .txt-fff {
   color: #fff;
 }
 .txt-blue {
-  color: #3f33ff;
+  color: #032c4c;
 }
 .txt-p {
-    font-size: 1.33em;
+    font-size: 1.25em;
     text-align: justify;
     padding-top: 10px;
     padding-bottom: 0px;
@@ -154,7 +154,7 @@ header.header-execution h1 {
 }
 .blue-bg:hover {
     /* background-color: #dadada; */
-    background-color: #3f33ff;
+    background-color: #032c4c;
 }
 .blue-bg:hover h3, .blue-bg:hover p {
   color: #fff;
@@ -192,12 +192,16 @@ td {
 /* Clients Page */
 /* Footer */
 footer {
-    background-color: #3f33ff;
+    background-color: #032c4c;
     padding: 15px 25px 5px 25px;
 }
 .social-ico a i.fa {
     padding: 5px 10px;
     font-size: 1.2em;
     color: #fff;
+}
+.foot-sitemap span a {
+  text-decoration: none;
+  color: #fff !important;
 }
 /* Footer */
