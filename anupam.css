@@ -23,6 +23,9 @@ section {
     margin-top: 60px;
     margin-bottom: 40px;
 }
+ul.txt-black {
+    margin-top: 40px;
+}
 ul.nav li {
     margin: 0px;
 }
@@ -57,17 +60,11 @@ h4 {
 h2.txt-slide, h1, h2 {
     font-size: 2.8em;
     font-weight: 900;
-    /* color: #fff; */
-    /* color: #0d26da; */
-    /* color: #383838; */
 }
 @media screen and (max-width: 600px) {
   h2.txt-slide, h1, h2 {
       font-size: 1.8em;
       font-weight: 900;
-      /* color: #fff; */
-      /* color: #0d26da; */
-      /* color: #383838; */
   }
 }
 .pad-bottom {
@@ -96,17 +93,20 @@ span>div {
 }
 /* Homepage */
 .sliderbg-one {
-  background-image: url(https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(pexels-photo-1661004.jpeg);
+  /* background-image: url(https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
   background-size: cover;
   background-position: center;
 }
 .sliderbg-two {
-  background-image: url(https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(pexels-photo-1068523.jpeg);
+  /* background-image: url(https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
   background-size: cover;
   background-position: center;
 }
 .sliderbg-three {
-  background-image: url(https://images.pexels.com/photos/1249158/pexels-photo-1249158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(pexels-photo-1249158.jpeg);
+  /* background-image: url(https://images.pexels.com/photos/1249158/pexels-photo-1249158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
   background-size: cover;
   background-position: center;
 }
@@ -120,6 +120,7 @@ span>div {
 }
 /* header Slider */
 .parallax-home {
+    background-image: url(pexels-photo-1446319.jpeg);
     background-image: url(https://images.pexels.com/photos/1446319/pexels-photo-1446319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     height: auto;
     background-attachment: fixed;
@@ -128,7 +129,8 @@ span>div {
     background-size: cover;
 }
 .parallax-one {
-    background-image: url(https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(pexels-photo-1661004.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
     height: auto;
     background-attachment: fixed;
     background-position: center;
@@ -136,7 +138,8 @@ span>div {
     background-size: cover;
 }
 .parallax-two {
-    background-image: url(https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(pexels-photo-1661004.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
     height: auto;
     background-attachment: fixed;
     background-position: center;
@@ -144,7 +147,8 @@ span>div {
     background-size: cover;
 }
 .parallax-three {
-    background-image: url(https://images.pexels.com/photos/1249158/pexels-photo-1249158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(pexels-photo-1249158.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1249158/pexels-photo-1249158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
     height: auto;
     background-attachment: fixed;
     background-position: center;
@@ -159,7 +163,8 @@ span>div {
 }
 /* Services Page */
 header.header-services, header.header-execution {
-    background-image: url(https://images.pexels.com/photos/1083623/pexels-photo-1083623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(pexels-photo-1083623.jpeg);
+    /* background-image: url(https://images.pexels.com/photos/1083623/pexels-photo-1083623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
     background-position: center;
     background-size: cover;
 }
@@ -199,7 +204,7 @@ header.header-execution h1 {
 /* Services Page */
 /* Execution Page */
 tr.bg-qb {
-    background-color: #1a73e8;
+    background-color: #032c4c;
     color: #fff;
 }
 td {
