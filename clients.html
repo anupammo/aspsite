@@ -24,7 +24,7 @@
     <!-- Vustom Style -->
     <link href="anupam.css" rel="stylesheet">
   </head>
-  <body>
+  <body onload="typeWriter();">
     <nav class="navbar">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -53,7 +53,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <h1 class="text-center text-uppercase txt-fff">Quick Brain - Our Clients</h1>
+              <h1 id="typetext" class="text-center text-uppercase txt-fff"></h1>
             </div>
           </div>
         </div>
@@ -63,145 +63,165 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <h4 class="text-uppercase txt-blue">Eminent Municipalities of West Bengal</h4>
+            <h4 class="text-uppercase txt-blue">Municipalities in West Bengal</h4>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Maheshtala</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Maheshtala</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">South 24 Parganas</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> South 24 Parganas</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Bidhannagar</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Bidhannagar</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Madhyamgram</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Madhyamgram</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Ranaghat</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Ranaghat</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Joynagar</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Joynagar</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Santipur</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Santipur</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Nalhati</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Nalhati</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Mathabhanga</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Mathabhanga</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Durgapur</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Durgapur</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">West Midnapore</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> West Midnapore</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Nabadwip</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Nabadwip</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Rampurhat</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Rampurhat</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Bhatpara</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Bhatpara</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Halisahar</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Halisahar</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Rajpur-Sonarpur</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Rajpur-Sonarpur</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Rajarhat-Gopalpur</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Rajarhat-Gopalpur</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Jhalda</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Jhalda</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Suri</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Suri</p>
             </div>
-            <h4 class="text-uppercase txt-blue">Eminent District Magistrate Office</h4>
+            <h4 class="text-uppercase txt-blue">District Magistrate Office in West Bengal</h4>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Alipore (South 24 Parganas)</p>
-            </div>
-            <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Hooghly (Chinsura)</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Alipore (South 24 Parganas)</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Bankura</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Hooghly (Chinsura)</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-map-marker txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">West Midnapore</p>
-            </div>
-            <h4 class="text-uppercase txt-blue">Eminent Organization</h4>
-            <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Visva-Bharati Central Library</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> Bankura</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Central Library of Geological Survey of India (Eastern (Kolkata)</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-map-marker txt-fff"></i> West Midnapore</p>
+            </div>
+            <h4 class="text-uppercase txt-blue">Government offices (States & Central)</h4>
+            <div class="card-block">
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Visva-Bharati Central Library</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Central Library of Geological Survey of India Western Region (Jaipur)</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Central Library of Geological Survey of India (Eastern (Kolkata)</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Central Library of Geological Survey of India Central Headquarter (Kolkata)</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Central Library of Geological Survey of India Western Region (Jaipur)</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Indian Science & News Association (Kolkata)</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Central Library of Geological Survey of India Central Headquarter (Kolkata)</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Pt. Sundarlal Sharma Central Library (Raipur)</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Indian Science & News Association (Kolkata)</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">MGM Senior Secondary School (Bhilai)</p>
-            </div>
-            <h4 class="text-uppercase txt-blue">Eminent Multi Nnational Company</h4>
-            <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Hewlett Packard India Ltd. (Sarjapur, Bangalore)</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Pt. Sundarlal Sharma Central Library (Raipur)</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">ICICI Lombard (Kolkata)</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Ministry of home affairs (Kolkata, Mumbai)</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Infotech Geospcial India Ltd. (Hyderabad)</p>
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Damodar Valley Corporation (Kolkata)</p>
             </div>
             <div class="card-block">
-              <i class="fa fa-briefcase txt-fff"></i>
-              <p class="text-center text-uppercase txt-fff">Tata Consultancy Ltd. (Kolkata)</p>
+              <p class="text-center text-uppercase txt-fff"><i class="fa fa-briefcase txt-fff"></i> Directorate of Registration on Stamp Revenue Office (West Midnapore, Durgapur,
+Uluberia, Bagnan, Dumjur, Kakdwip)</p>
+            </div>
+            <h4 class="text-uppercase txt-blue">Eminent Corporates</h4>
+            <div class="card-block">
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Hewlett Packard India Ltd. (Sarjapur, Bangalore)</p>
+            </div>
+            <div class="card-block">
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> ICICI Lombard (Kolkata)</p>
+            </div>
+            <div class="card-block">
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Infotech Geospcial India Ltd. (Hyderabad)</p>
+            </div>
+            <div class="card-block">
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Tata Consultancy Ltd. (Kolkata)</p>
+            </div>
+            <div class="card-block">
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Nevaeh Technology</p>
+            </div>
+            <div class="card-block">
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> CBSL Group, New Delhi</p>
+            </div>
+            <div class="card-block">
+              <p class="text-center text-uppercase txt-fff">
+              <i class="fa fa-briefcase txt-fff"></i> Global Business Solutions, Hyderabad</p>
             </div>
           </div>
         </div>
@@ -230,5 +250,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script>
+      var i = 0;
+      var txt = 'Quick Brain - Our Clients';
+      var speed = 50;
+
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("typetext").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+    </script>
   </body>
 </html>
