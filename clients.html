@@ -24,7 +24,7 @@
     <!-- Vustom Style -->
     <link href="anupam.css" rel="stylesheet">
   </head>
-  <body onload="typeWriter();">
+  <body onload="typeWriter3();">
     <nav class="navbar">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -191,8 +191,8 @@
               <i class="fa fa-briefcase txt-fff"></i> Damodar Valley Corporation (Kolkata)</p>
             </div>
             <div class="card-block">
-              <p class="text-center text-uppercase txt-fff"><i class="fa fa-briefcase txt-fff"></i> Directorate of Registration on Stamp Revenue Office (West Midnapore, Durgapur,
-Uluberia, Bagnan, Dumjur, Kakdwip)</p>
+              <p class="text-center text-uppercase txt-fff"><i class="fa fa-briefcase txt-fff"></i> Directorate of Registration on Stamp
+                Revenue Office (West Midnapore, Durgapur, Uluberia, Bagnan, Dumjur, Kakdwip)</p>
             </div>
             <h4 class="text-uppercase txt-blue">Eminent Corporates</h4>
             <div class="card-block">
@@ -250,18 +250,6 @@ Uluberia, Bagnan, Dumjur, Kakdwip)</p>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- <script src="js/bootstrap.min.js"></script> -->
-    <script>
-      var i = 0;
-      var txt = 'Quick Brain - Our Clients';
-      var speed = 50;
-
-      function typeWriter() {
-        if (i < txt.length) {
-          document.getElementById("typetext").innerHTML += txt.charAt(i);
-          i++;
-          setTimeout(typeWriter, speed);
-        }
-      }
-    </script>
+    <script src="anupam.js"></script>
   </body>
 </html>

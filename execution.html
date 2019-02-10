@@ -24,7 +24,7 @@
     <!-- Vustom Style -->
     <link href="anupam.css" rel="stylesheet">
   </head>
-  <body onload="typeWriter();">
+  <body onload="typeWriter2();">
     <nav class="navbar">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -130,18 +130,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- <script src="js/bootstrap.min.js"></script> -->
-    <script>
-      var i = 0;
-      var txt = 'Quick Brain - Ongoing Execution';
-      var speed = 50;
-
-      function typeWriter() {
-        if (i < txt.length) {
-          document.getElementById("typetext").innerHTML += txt.charAt(i);
-          i++;
-          setTimeout(typeWriter, speed);
-        }
-      }
-    </script>
+    <script src="anupam.js"></script>
   </body>
 </html>
