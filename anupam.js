@@ -1,3 +1,4 @@
+//function typeWriter() {}
 var i = 0;
 var txt = 'QUICK BRAIN - SERVICES WE PROVIDE';
 var txt1 = 'QUICK BRAIN - ONGOING EXECUTION';
